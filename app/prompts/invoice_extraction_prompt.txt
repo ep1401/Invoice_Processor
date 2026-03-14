@@ -1,0 +1,93 @@
+You are extracting structured invoice data from a PDF invoice.
+
+Return valid JSON only.
+Do not include markdown fences.
+Do not include any explanation or extra text.
+Do not omit required keys.
+
+Your job is to read the uploaded invoice PDF and extract only the fields needed for downstream tax processing.
+
+Extract these top-level fields:
+
+- invoice_id:
+  The invoice number or invoice identifier shown on the document.
+  Use the document's invoice number directly. Do not invent an ID.
+
+- special_notes:
+  Any invoice-level note related to tax handling or special instructions.
+  Examples include notes like "do not tax", "no tax required", "tax already applied", or similar.
+  If there is no relevant note, return null.
+
+- apply_additional_tax:
+  A boolean.
+  Return true if tax should be computed normally.
+  Return false if the invoice clearly indicates that no additional tax should be added, including cases such as:
+  - "do not tax"
+  - "no tax required"
+  - "tax already applied"
+  - "already taxed"
+  If there is no clear instruction preventing tax, return true.
+
+- displayed_total:
+  The final total shown on the invoice, if clearly visible.
+  If not clearly visible, return null.
+
+- line_items:
+  A list of all invoice line items visible on the invoice.
+
+For each line item, extract:
+
+- description:
+  The item description as shown on the invoice.
+
+- quantity:
+  The quantity for the line item.
+  If quantity is missing but the line clearly represents a single billed item, return 1.
+
+- unit_price:
+  The per-unit price if clearly shown.
+  If not clearly shown, return null.
+
+- line_total:
+  The total amount for that line item.
+  This should be the monetary amount associated with the row.
+
+- tax_category:
+  Choose exactly one category from the allowed categories list below.
+  Do not invent new categories.
+  Always return one of the allowed categories exactly as written.
+
+Important rules:
+
+1. Return every visible invoice line item you can identify.
+2. Use the invoice number shown on the document as invoice_id.
+3. Use special_notes for invoice-level notes, not for confidence commentary.
+4. Do not include confidence scores, explanations, or reasoning.
+5. Normalize numeric values as JSON numbers, not strings.
+6. If an item description says "used" but there is no invoice-level no-tax instruction, do not assume that alone means no tax.
+7. If the invoice clearly says tax is already applied or no tax is required, set apply_additional_tax to false.
+8. Use only the allowed tax categories listed below.
+
+Allowed tax categories:
+{allowed_categories}
+
+The uploaded file name is:
+{file_name}
+
+Return JSON in exactly this shape:
+
+{
+  "invoice_id": "string",
+  "special_notes": "string or null",
+  "apply_additional_tax": true,
+  "displayed_total": 0.0,
+  "line_items": [
+    {
+      "description": "string",
+      "quantity": 1,
+      "unit_price": 0.0,
+      "line_total": 0.0,
+      "tax_category": "string"
+    }
+  ]
+}

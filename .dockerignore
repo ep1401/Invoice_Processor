@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Git / editor
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+
+# Local secrets
+.env
+
+# Local artifacts
+output/
+logs/
+
+# Tests and docs not needed in image
+tests/
+README.md
+executive_summary.md
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
