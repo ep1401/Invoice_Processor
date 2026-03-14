@@ -2,23 +2,23 @@ from dataclasses import dataclass
 
 
 @dataclass
-class LoadedDocument:
+class InputDocument:
     file_name: str
     file_bytes: bytes
 
 
-class DocumentLoader:
-    def load_from_bytes(self, file_bytes: bytes, file_name: str) -> LoadedDocument:
+class DocumentValidator:
+    def validate(self, file_bytes: bytes, file_name: str) -> InputDocument:
         if not file_name:
-            raise ValueError("file_name is required.")
-
-        if not file_bytes:
-            raise ValueError("file_bytes is empty.")
+            raise ValueError("A file name is required.")
 
         if not file_name.lower().endswith(".pdf"):
             raise ValueError("Only PDF files are supported.")
 
-        return LoadedDocument(
+        if not file_bytes:
+            raise ValueError("Uploaded file is empty.")
+
+        return InputDocument(
             file_name=file_name,
             file_bytes=file_bytes,
         )
