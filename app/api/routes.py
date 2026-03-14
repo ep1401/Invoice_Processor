@@ -1,7 +1,7 @@
 from fastapi import APIRouter, File, HTTPException, UploadFile, status
 
 from app.pipeline import InvoiceProcessingPipeline
-from app.services.document_validator import DocumentLoader
+from app.services.document_validator import DocumentValidator
 from app.services.invoice_extractor import InvoiceExtractor
 from app.services.tax_engine import TaxEngine
 from app.services.tax_repository import TaxRepository
@@ -15,13 +15,13 @@ router = APIRouter()
 
 def get_pipeline() -> InvoiceProcessingPipeline:
     tax_repository = TaxRepository(TAX_CSV_PATH)
-    document_loader = DocumentLoader()
+    document_validator = DocumentValidator()
     invoice_extractor = InvoiceExtractor(tax_repository=tax_repository)
     tax_engine = TaxEngine(tax_repository=tax_repository)
     result_writer = LocalJsonResultWriter(INVOICE_OUTPUT_DIR)
 
     return InvoiceProcessingPipeline(
-        document_loader=document_loader,
+        document_validator=document_validator,
         invoice_extractor=invoice_extractor,
         tax_engine=tax_engine,
         result_writer=result_writer,
