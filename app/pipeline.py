@@ -4,7 +4,10 @@ from app.services.document_validator import DocumentValidator
 from app.services.invoice_extractor import InvoiceExtractor
 from app.services.tax_engine import TaxEngine
 from app.services.storage.base import ResultWriter
-from app.utils.validation import validate_extracted_invoice
+from app.utils.validation import (
+    validate_extracted_invoice,
+    validate_processing_result,
+)
 
 
 class InvoiceProcessingPipeline:
@@ -34,6 +37,8 @@ class InvoiceProcessingPipeline:
         warnings = validate_extracted_invoice(extracted_invoice)
 
         result: ProcessingResult = self.tax_engine.build_result(extracted_invoice)
+
+        warnings.extend(validate_processing_result(result))
 
         if warnings:
             warning_text = " | ".join(warnings)

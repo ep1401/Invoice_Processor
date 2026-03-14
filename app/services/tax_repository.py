@@ -28,7 +28,6 @@ class TaxRepository:
                 if not tax_rates:
                     raise ValueError("No tax categories were loaded from the CSV.")
 
-                print(f"Loaded tax CSV using encoding: {encoding}")
                 return tax_rates
 
             except UnicodeDecodeError as exc:
