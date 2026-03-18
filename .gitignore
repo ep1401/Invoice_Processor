@@ -13,14 +13,13 @@ env/
 # Environment variables / secrets
 .env
 
-# Output artifacts
-output/
-logs/
-
 # Test / tooling caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Local helper/debug folders
+helper/
 
 # OS / editor junk
 .DS_Store

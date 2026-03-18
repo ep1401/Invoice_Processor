@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-12232",
+  "FileName": "1.pdf",
+  "AIPromptTokens": 2769,
+  "AICompletionTokens": 477,
+  "ProcessingDateTime": "2026-03-18T22:00:34.184595+00:00",
+  "InvoicePreTaxTotals": 7254.67,
+  "InvoicePostTaxTotals": 7254.67,
+  "InvoiceTaxTotals": 0.0,
+  "InvoiceLineItems": [
+    {
+      "Description": "Seedless Red Grapes - 2 lb Clamshell",
+      "Quantity": 150.0,
+      "UnitPrice": 5.49,
+      "LineTotal": 823.5,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Navel Oranges - 4 lb Bag",
+      "Quantity": 300.0,
+      "UnitPrice": 6.49,
+      "LineTotal": 1947.0,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Hass Avocados - 4 Count Bag",
+      "Quantity": 100.0,
+      "UnitPrice": 5.99,
+      "LineTotal": 599.0,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Roma Tomatoes - 2 lb Bag",
+      "Quantity": 305.0,
+      "UnitPrice": 3.29,
+      "LineTotal": 1003.45,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Baby Carrots - 2 lb Bag",
+      "Quantity": 40.0,
+      "UnitPrice": 2.99,
+      "LineTotal": 119.6,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Fresh Broccoli Crowns - 1 lb",
+      "Quantity": 340.0,
+      "UnitPrice": 2.49,
+      "LineTotal": 846.6,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Iceberg Lettuce - Each Head",
+      "Quantity": 230.0,
+      "UnitPrice": 1.79,
+      "LineTotal": 411.7,
+      "TaxCategory": "Fresh Produce",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Chobani Greek Yogurt - 4 Count Variety Pack",
+      "Quantity": 90.0,
+      "UnitPrice": 6.49,
+      "LineTotal": 584.1,
+      "TaxCategory": "Dairy Products",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Philadelphia Original Cream Cheese - 8 oz",
+      "Quantity": 88.0,
+      "UnitPrice": 3.49,
+      "LineTotal": 307.12,
+      "TaxCategory": "Dairy Products",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Pepperidge Farm Whole Grain Bread - 24 oz Loaf",
+      "Quantity": 30.0,
+      "UnitPrice": 4.29,
+      "LineTotal": 128.7,
+      "TaxCategory": "Bakery Items",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Arnold Country White Bread - 24 oz Loaf",
+      "Quantity": 80.0,
+      "UnitPrice": 3.99,
+      "LineTotal": 319.2,
+      "TaxCategory": "Bakery Items",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "King’s Hawaiian Sweet Rolls - 12 Count",
+      "Quantity": 30.0,
+      "UnitPrice": 5.49,
+      "LineTotal": 164.7,
+      "TaxCategory": "Bakery Items",
+      "TaxAmount": 0.0
+    }
+  ],
+  "SpecialNotes": null
+}

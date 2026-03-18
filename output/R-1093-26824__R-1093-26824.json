@@ -1,0 +1,93 @@
+{
+  "InvoiceID": "R-1093-26824",
+  "FileName": "R-1093-26824.pdf",
+  "AIPromptTokens": 1944,
+  "AICompletionTokens": 430,
+  "ProcessingDateTime": "2026-03-18T22:02:35.967004+00:00",
+  "InvoicePreTaxTotals": 4060.22,
+  "InvoicePostTaxTotals": 4060.22,
+  "InvoiceTaxTotals": 0.0,
+  "InvoiceLineItems": [
+    {
+      "Description": "Used- “To Kill A Mockingbird” – Harper Lee – Hardcover",
+      "Quantity": 15.0,
+      "UnitPrice": 22.49,
+      "LineTotal": 337.35,
+      "TaxCategory": "Books (Physical)",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- “The Great Gatsby” – F. Scott Fitzgerald",
+      "Quantity": 16.0,
+      "UnitPrice": 14.99,
+      "LineTotal": 239.84,
+      "TaxCategory": "Books (Physical)",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- “Educated” – Tara Westover – Paperback",
+      "Quantity": 10.0,
+      "UnitPrice": 18.99,
+      "LineTotal": 189.9,
+      "TaxCategory": "Books (Physical)",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Hasbro Monopoly Deluxe Edition",
+      "Quantity": 20.0,
+      "UnitPrice": 29.99,
+      "LineTotal": 599.8,
+      "TaxCategory": "Toys & Games",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Mattel UNO Card Game",
+      "Quantity": 17.0,
+      "UnitPrice": 9.99,
+      "LineTotal": 169.83,
+      "TaxCategory": "Toys & Games",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Ravensburger 1000-Piece Jigsaw Puzzle",
+      "Quantity": 24.0,
+      "UnitPrice": 19.99,
+      "LineTotal": 479.76,
+      "TaxCategory": "Toys & Games",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Nerf Elite Blaster – 25 Darts",
+      "Quantity": 15.0,
+      "UnitPrice": 39.99,
+      "LineTotal": 599.85,
+      "TaxCategory": "Toys & Games",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Breville Smart Toaster Oven – Compact",
+      "Quantity": 6.0,
+      "UnitPrice": 149.0,
+      "LineTotal": 894.0,
+      "TaxCategory": "Small Kitchen Appliances",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Hamilton Beach 2-Slice Toaster – Brushed Steel",
+      "Quantity": 8.0,
+      "UnitPrice": 34.99,
+      "LineTotal": 279.92,
+      "TaxCategory": "Small Kitchen Appliances",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Used- Cuisinart 12-Cup Coffee Maker – Programmable",
+      "Quantity": 3.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 269.97,
+      "TaxCategory": "Small Kitchen Appliances",
+      "TaxAmount": 0.0
+    }
+  ],
+  "SpecialNotes": "Items are non-taxable due to \"Used\" status | Validation warnings: Invoice total mismatch: summed line totals = 4060.22, but displayed_total = 2616.33."
+}

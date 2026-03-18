@@ -33,15 +33,22 @@ Field guidance:
 For each line item:
 
 - description:
-  Use the item description as shown on the invoice.
+  Extract the product or service description from the line item.
 
+  Keep information that identifies or distinguishes the item itself, such as product type, variant, size, pack size, strength, model, condition, and other descriptive attributes. Preserve condition terms (e.g., "used", "new", "refurbished") when they appear in the line item text.
+
+  Exclude administrative or row-level metadata that is not part of the product or service description, such as internal identifiers, SKU-like codes, and explicit quantity labels.
+
+  The description should remain faithful to the invoice text while excluding appended metadata that does not describe the item itself.
+  
 - quantity:
   Extract the quantity shown for the line item.
   If quantity is missing but the row clearly represents a single billed item, return 1.
 
 - unit_price:
-  Extract the per-unit price if it is clearly shown.
-  If it is not clearly shown, return null.
+  Extract the per-unit price only if it is explicitly shown on the invoice.
+  Do not infer, estimate, or calculate it from quantity and line total.
+  If it is not explicitly shown, return null.
 
 - line_total:
   Extract the monetary amount associated with that row.
@@ -51,6 +58,10 @@ For each line item:
   Do not invent new categories.
   Always return one allowed category exactly as written.
 
+  When multiple categories could apply, select the most specific applicable category rather than a broader general category.
+
+  Base the category on what the item actually is, not on the broader department or use case it belongs to. Prefer the category that matches the item’s direct product type or physical form.
+  
 Important rules:
 
 1. Return every visible invoice line item you can identify.
@@ -60,8 +71,9 @@ Important rules:
 5. If an item description says "used" but there is no invoice-level instruction that tax should not be added, do not assume that alone means no tax.
 6. If the invoice clearly says tax is already applied or no tax is required, set apply_additional_tax to false.
 7. Use only the allowed tax categories listed below.
-8. If a value is unclear and the schema allows null, return null rather than guessing.
+8. If a value is unclear or not explicitly shown and the schema allows null, return null rather than guessing, inferring, or calculating it.
 9. Do not include reasoning, commentary, or confidence statements in extracted field values.
+10. Prefer consistent formatting across all line items within the same invoice.
 
 Allowed tax categories:
 {allowed_categories}

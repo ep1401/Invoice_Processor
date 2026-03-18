@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-15886",
+  "FileName": "25-15886.pdf",
+  "AIPromptTokens": 1921,
+  "AICompletionTokens": 512,
+  "ProcessingDateTime": "2026-03-18T22:00:59.587785+00:00",
+  "InvoicePreTaxTotals": 7477.81,
+  "InvoicePostTaxTotals": 8258.64,
+  "InvoiceTaxTotals": 780.83,
+  "InvoiceLineItems": [
+    {
+      "Description": "Jack Daniel’s Tennessee Whiskey – 750 ml Bottle",
+      "Quantity": 4.0,
+      "UnitPrice": 28.99,
+      "LineTotal": 115.96,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 11.6
+    },
+    {
+      "Description": "Marlboro Gold Cigarettes – Carton (10 Packs)",
+      "Quantity": 34.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 3059.66,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 367.16
+    },
+    {
+      "Description": "Camel Blue Cigarettes – Carton (10 Packs)",
+      "Quantity": 25.0,
+      "UnitPrice": 87.99,
+      "LineTotal": 2199.75,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 263.97
+    },
+    {
+      "Description": "Copenhagen Long Cut – 5 Cans",
+      "Quantity": 26.0,
+      "UnitPrice": 38.49,
+      "LineTotal": 1000.74,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 120.09
+    },
+    {
+      "Description": "Perdue Ground Chicken – 1 lb",
+      "Quantity": 40.0,
+      "UnitPrice": 6.49,
+      "LineTotal": 259.6,
+      "TaxCategory": "Meat & Poultry",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Jennie-O Lean Ground Turkey – 1 lb",
+      "Quantity": 14.0,
+      "UnitPrice": 6.99,
+      "LineTotal": 97.86,
+      "TaxCategory": "Meat & Poultry",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Oscar Mayer Bacon – 16 oz Pack",
+      "Quantity": 45.0,
+      "UnitPrice": 8.49,
+      "LineTotal": 382.05,
+      "TaxCategory": "Meat & Poultry",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Hormel Chili with Beans – 15 oz Can",
+      "Quantity": 32.0,
+      "UnitPrice": 2.99,
+      "LineTotal": 95.68,
+      "TaxCategory": "Canned Goods",
+      "TaxAmount": 3.83
+    },
+    {
+      "Description": "Chef Boyardee Beef Ravioli – 15 oz Can",
+      "Quantity": 14.0,
+      "UnitPrice": 2.49,
+      "LineTotal": 34.86,
+      "TaxCategory": "Canned Goods",
+      "TaxAmount": 1.39
+    },
+    {
+      "Description": "Goya Black Beans – 15.5 oz Can",
+      "Quantity": 28.0,
+      "UnitPrice": 1.99,
+      "LineTotal": 55.72,
+      "TaxCategory": "Canned Goods",
+      "TaxAmount": 2.23
+    },
+    {
+      "Description": "Heinz Tomato Ketchup – 38 oz Bottle",
+      "Quantity": 21.0,
+      "UnitPrice": 5.49,
+      "LineTotal": 115.29,
+      "TaxCategory": "Condiments & Sauces",
+      "TaxAmount": 6.92
+    },
+    {
+      "Description": "French’s Classic Yellow Mustard – 20 oz Bottle",
+      "Quantity": 16.0,
+      "UnitPrice": 3.79,
+      "LineTotal": 60.64,
+      "TaxCategory": "Condiments & Sauces",
+      "TaxAmount": 3.64
+    }
+  ],
+  "SpecialNotes": null
+}

@@ -1,0 +1,69 @@
+{
+  "InvoiceID": "R-1093-24524",
+  "FileName": "R-1093-24524.pdf",
+  "AIPromptTokens": 2781,
+  "AICompletionTokens": 311,
+  "ProcessingDateTime": "2026-03-18T22:02:29.742957+00:00",
+  "InvoicePreTaxTotals": 13582.49,
+  "InvoicePostTaxTotals": 14543.56,
+  "InvoiceTaxTotals": 961.07,
+  "InvoiceLineItems": [
+    {
+      "Description": "Kobalt Adjustable Wrench Set – 3 Piece",
+      "Quantity": 40.0,
+      "UnitPrice": 34.99,
+      "LineTotal": 1399.6,
+      "TaxCategory": "Tools & Hardware",
+      "TaxAmount": 97.97
+    },
+    {
+      "Description": "Milwaukee Hammer Drill – 1/2\" 18V",
+      "Quantity": 20.0,
+      "UnitPrice": 179.0,
+      "LineTotal": 3580.0,
+      "TaxCategory": "Tools & Hardware",
+      "TaxAmount": 250.6
+    },
+    {
+      "Description": "Behr Premium Interior Paint – 1 Gallon",
+      "Quantity": 50.0,
+      "UnitPrice": 41.99,
+      "LineTotal": 2099.5,
+      "TaxCategory": "Paint & Finishes",
+      "TaxAmount": 146.97
+    },
+    {
+      "Description": "Valspar Ultra Exterior Paint – 1 Gallon",
+      "Quantity": 35.0,
+      "UnitPrice": 43.99,
+      "LineTotal": 1539.65,
+      "TaxCategory": "Paint & Finishes",
+      "TaxAmount": 107.78
+    },
+    {
+      "Description": "ClearSpring – Purified Water – 24 Pack (16.9 fl oz)",
+      "Quantity": 16.0,
+      "UnitPrice": 6.49,
+      "LineTotal": 103.84,
+      "TaxCategory": "Bottled Water",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "AquaPure – Natural Spring Water – 6 Pack (1L)",
+      "Quantity": 10.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 89.9,
+      "TaxCategory": "Bottled Water",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Brooklinen Luxe Core Sheet Set – Queen",
+      "Quantity": 30.0,
+      "UnitPrice": 159.0,
+      "LineTotal": 4770.0,
+      "TaxCategory": "Bedding & Linens",
+      "TaxAmount": 357.75
+    }
+  ],
+  "SpecialNotes": null
+}

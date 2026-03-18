@@ -1,0 +1,85 @@
+{
+  "InvoiceID": "25-12345",
+  "FileName": "Invoice.pdf",
+  "AIPromptTokens": 2769,
+  "AICompletionTokens": 418,
+  "ProcessingDateTime": "2026-03-18T22:02:05.976290+00:00",
+  "InvoicePreTaxTotals": 3762.48,
+  "InvoicePostTaxTotals": 4064.17,
+  "InvoiceTaxTotals": 301.69,
+  "InvoiceLineItems": [
+    {
+      "Description": "Bosch Premium Oil Filter - Model 3330",
+      "Quantity": 3.0,
+      "UnitPrice": 7.49,
+      "LineTotal": 22.47,
+      "TaxCategory": "Automotive Parts",
+      "TaxAmount": 1.8
+    },
+    {
+      "Description": "Denso Iridium Spark Plug - IK20, Pack of 4",
+      "Quantity": 4.0,
+      "UnitPrice": 38.95,
+      "LineTotal": 155.8,
+      "TaxCategory": "Automotive Parts",
+      "TaxAmount": 12.46
+    },
+    {
+      "Description": "ACDelco Front Brake Pads - Ceramic, GM Compatible",
+      "Quantity": 5.0,
+      "UnitPrice": 54.0,
+      "LineTotal": 270.0,
+      "TaxCategory": "Automotive Parts",
+      "TaxAmount": 21.6
+    },
+    {
+      "Description": "Heineken Premium Lager - 6 Pack (12 fl oz Bottles)",
+      "Quantity": 3.0,
+      "UnitPrice": 11.49,
+      "LineTotal": 34.47,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 3.45
+    },
+    {
+      "Description": "Castrol GTX High Mileage - 10W-40, 1-Quart Bottle",
+      "Quantity": 10.0,
+      "UnitPrice": 6.79,
+      "LineTotal": 67.9,
+      "TaxCategory": "Motor Oil",
+      "TaxAmount": 5.43
+    },
+    {
+      "Description": "Valvoline Advanced Full Synthetic - 0W-20, 5-Quart Jug",
+      "Quantity": 11.0,
+      "UnitPrice": 30.49,
+      "LineTotal": 335.39,
+      "TaxCategory": "Motor Oil",
+      "TaxAmount": 26.83
+    },
+    {
+      "Description": "DieHard Silver Car Battery - Group Size 35, 640 CCA",
+      "Quantity": 5.0,
+      "UnitPrice": 159.99,
+      "LineTotal": 799.95,
+      "TaxCategory": "Car Batteries",
+      "TaxAmount": 64.0
+    },
+    {
+      "Description": "Optima RedTop AGM Battery - Group 34/78, 800 CCA",
+      "Quantity": 3.0,
+      "UnitPrice": 229.0,
+      "LineTotal": 687.0,
+      "TaxCategory": "Car Batteries",
+      "TaxAmount": 54.96
+    },
+    {
+      "Description": "Michelin Defender LTX M/S Tire - 265/70R17",
+      "Quantity": 7.0,
+      "UnitPrice": 198.5,
+      "LineTotal": 1389.5,
+      "TaxCategory": "Tires",
+      "TaxAmount": 111.16
+    }
+  ],
+  "SpecialNotes": null
+}

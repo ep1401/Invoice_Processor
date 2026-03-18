@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-12234",
+  "FileName": "RetailCo_Invoice.pdf",
+  "AIPromptTokens": 2360,
+  "AICompletionTokens": 542,
+  "ProcessingDateTime": "2026-03-18T22:02:54.314063+00:00",
+  "InvoicePreTaxTotals": 12062.57,
+  "InvoicePostTaxTotals": 12897.26,
+  "InvoiceTaxTotals": 834.69,
+  "InvoiceLineItems": [
+    {
+      "Description": "Smartwater Vapor Distilled - 6 Pack (1L)",
+      "Quantity": 30.0,
+      "UnitPrice": 9.99,
+      "LineTotal": 299.7,
+      "TaxCategory": "Bottled Water",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Poland Spring Natural Spring Water - 24 Pack",
+      "Quantity": 20.0,
+      "UnitPrice": 6.49,
+      "LineTotal": 129.8,
+      "TaxCategory": "Bottled Water",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Coca-Cola Original - 12 Pack (12 fl oz Cans)",
+      "Quantity": 12.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 107.88,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 7.01
+    },
+    {
+      "Description": "Sprite Lemon-Lime - 8 Pack (12 fl oz Bottles)",
+      "Quantity": 13.0,
+      "UnitPrice": 7.99,
+      "LineTotal": 103.87,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 6.75
+    },
+    {
+      "Description": "Black & Mild Cigars - Wine Tip, 5 Pack",
+      "Quantity": 40.0,
+      "UnitPrice": 7.49,
+      "LineTotal": 299.6,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 35.95
+    },
+    {
+      "Description": "Advil Ibuprofen Tablets - 200 mg, 100 Count",
+      "Quantity": 111.0,
+      "UnitPrice": 11.99,
+      "LineTotal": 1330.89,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 53.24
+    },
+    {
+      "Description": "Tylenol Extra Strength Caplets - 500 mg, 100 Count",
+      "Quantity": 45.0,
+      "UnitPrice": 12.99,
+      "LineTotal": 584.55,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 23.38
+    },
+    {
+      "Description": "Claritin 24-Hour Allergy Relief Tablets - 30 Count",
+      "Quantity": 32.0,
+      "UnitPrice": 21.99,
+      "LineTotal": 703.68,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 28.15
+    },
+    {
+      "Description": "Duracell Automotive Battery - Group H7, 800 CCA",
+      "Quantity": 14.0,
+      "UnitPrice": 179.99,
+      "LineTotal": 2519.86,
+      "TaxCategory": "Car Batteries",
+      "TaxAmount": 201.59
+    },
+    {
+      "Description": "NAPA Legend Premium Battery - Group 75, 690 CCA",
+      "Quantity": 14.0,
+      "UnitPrice": 162.99,
+      "LineTotal": 2281.86,
+      "TaxCategory": "Car Batteries",
+      "TaxAmount": 182.55
+    },
+    {
+      "Description": "Michelin Defender LTX M/S Tire - 265/70R17",
+      "Quantity": 10.0,
+      "UnitPrice": 198.5,
+      "LineTotal": 1985.0,
+      "TaxCategory": "Tires",
+      "TaxAmount": 158.8
+    },
+    {
+      "Description": "Goodyear Assurance All-Season Tire - 225/60R16",
+      "Quantity": 12.0,
+      "UnitPrice": 142.99,
+      "LineTotal": 1715.88,
+      "TaxCategory": "Tires",
+      "TaxAmount": 137.27
+    }
+  ],
+  "SpecialNotes": null
+}

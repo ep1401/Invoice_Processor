@@ -1,0 +1,53 @@
+{
+  "InvoiceID": "25-17235",
+  "FileName": "2025-10-10 16-00.pdf",
+  "AIPromptTokens": 2787,
+  "AICompletionTokens": 178,
+  "ProcessingDateTime": "2026-03-18T22:00:50.862551+00:00",
+  "InvoicePreTaxTotals": 900.0,
+  "InvoicePostTaxTotals": 900.0,
+  "InvoiceTaxTotals": 0.0,
+  "InvoiceLineItems": [
+    {
+      "Description": "used set of golf clubs",
+      "Quantity": 1.0,
+      "UnitPrice": 200.0,
+      "LineTotal": 200.0,
+      "TaxCategory": "Sporting Goods",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "used collection of basketballs",
+      "Quantity": 1.0,
+      "UnitPrice": 70.0,
+      "LineTotal": 70.0,
+      "TaxCategory": "Sporting Goods",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "used soccer balls",
+      "Quantity": 1.0,
+      "UnitPrice": 85.0,
+      "LineTotal": 85.0,
+      "TaxCategory": "Sporting Goods",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "used Garmin watch",
+      "Quantity": 1.0,
+      "UnitPrice": 300.0,
+      "LineTotal": 300.0,
+      "TaxCategory": "Watches",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "used collection of hiking boots",
+      "Quantity": 1.0,
+      "UnitPrice": 245.0,
+      "LineTotal": 245.0,
+      "TaxCategory": "Footwear",
+      "TaxAmount": 0.0
+    }
+  ],
+  "SpecialNotes": "Items are used; no tax required"
+}

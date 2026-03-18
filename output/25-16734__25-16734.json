@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-16734",
+  "FileName": "25-16734.pdf",
+  "AIPromptTokens": 1962,
+  "AICompletionTokens": 535,
+  "ProcessingDateTime": "2026-03-18T22:01:21.318953+00:00",
+  "InvoicePreTaxTotals": 4592.45,
+  "InvoicePostTaxTotals": 4854.2,
+  "InvoiceTaxTotals": 261.75,
+  "InvoiceLineItems": [
+    {
+      "Description": "Zyrtec Allergy Relief Tablets – 30 Count",
+      "Quantity": 20.0,
+      "UnitPrice": 22.49,
+      "LineTotal": 449.8,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 17.99
+    },
+    {
+      "Description": "Mucinex DM Extended-Release Tablets – 20 Count",
+      "Quantity": 20.0,
+      "UnitPrice": 15.99,
+      "LineTotal": 319.8,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 12.79
+    },
+    {
+      "Description": "Tums Antacid Chewable Tablets – 160 Count",
+      "Quantity": 20.0,
+      "UnitPrice": 7.99,
+      "LineTotal": 159.8,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 6.39
+    },
+    {
+      "Description": "NyQuil Cold & Flu Nighttime Relief – 12 fl oz",
+      "Quantity": 22.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 197.78,
+      "TaxCategory": "Over-the-Counter Medicine",
+      "TaxAmount": 7.91
+    },
+    {
+      "Description": "Centrum Adult Multivitamin – 200 Count",
+      "Quantity": 20.0,
+      "UnitPrice": 21.99,
+      "LineTotal": 439.8,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 17.59
+    },
+    {
+      "Description": "Nature Made Vitamin D3 – 2000 IU, 100 Softgels",
+      "Quantity": 40.0,
+      "UnitPrice": 12.99,
+      "LineTotal": 519.6,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 20.78
+    },
+    {
+      "Description": "Nature’s Bounty Fish Oil – 1200 mg, 200 Softgels",
+      "Quantity": 30.0,
+      "UnitPrice": 16.49,
+      "LineTotal": 494.7,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 19.79
+    },
+    {
+      "Description": "One A Day Women’s Multivitamin – 100 Count",
+      "Quantity": 23.0,
+      "UnitPrice": 13.99,
+      "LineTotal": 321.77,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 12.87
+    },
+    {
+      "Description": "Airborne Immune Support Gummies – 63 Count",
+      "Quantity": 20.0,
+      "UnitPrice": 18.99,
+      "LineTotal": 379.8,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 15.19
+    },
+    {
+      "Description": "Emergen-C Vitamin C Drink Mix – 30 Pack",
+      "Quantity": 19.0,
+      "UnitPrice": 13.99,
+      "LineTotal": 265.81,
+      "TaxCategory": "Vitamins & Supplements",
+      "TaxAmount": 10.63
+    },
+    {
+      "Description": "Newport Menthol Cigarettes – Carton (10 Packs)",
+      "Quantity": 10.0,
+      "UnitPrice": 94.49,
+      "LineTotal": 944.9,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 113.39
+    },
+    {
+      "Description": "Diet Coke – 12 Pack",
+      "Quantity": 11.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 98.89,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 6.43
+    }
+  ],
+  "SpecialNotes": null
+}

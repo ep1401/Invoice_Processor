@@ -1,0 +1,101 @@
+{
+  "InvoiceID": "25-14234",
+  "FileName": "AlphaImportInvoice.pdf",
+  "AIPromptTokens": 1961,
+  "AICompletionTokens": 502,
+  "ProcessingDateTime": "2026-03-18T22:01:32.914173+00:00",
+  "InvoicePreTaxTotals": 15438.88,
+  "InvoicePostTaxTotals": 17197.71,
+  "InvoiceTaxTotals": 1758.83,
+  "InvoiceLineItems": [
+    {
+      "Description": "Guinness Draught Stout – 4 Pack (14.9 fl oz Cans)",
+      "Quantity": 55.0,
+      "UnitPrice": 9.99,
+      "LineTotal": 549.45,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 54.95
+    },
+    {
+      "Description": "Stella Artois Belgian Lager – 6 Pack (11.2 fl oz Bottles)",
+      "Quantity": 45.0,
+      "UnitPrice": 10.99,
+      "LineTotal": 494.55,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 49.46
+    },
+    {
+      "Description": "White Claw Hard Seltzer Variety Pack – 12 Pack",
+      "Quantity": 40.0,
+      "UnitPrice": 18.49,
+      "LineTotal": 739.6,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 73.96
+    },
+    {
+      "Description": "Jack Daniel’s Tennessee Whiskey – 750 ml Bottle",
+      "Quantity": 45.0,
+      "UnitPrice": 28.99,
+      "LineTotal": 1304.55,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 130.46
+    },
+    {
+      "Description": "Tito’s Handmade Vodka – 1 Liter Bottle",
+      "Quantity": 45.0,
+      "UnitPrice": 24.99,
+      "LineTotal": 1124.55,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 112.45
+    },
+    {
+      "Description": "Josh Cellars Cabernet Sauvignon – 750 ml Bottle",
+      "Quantity": 30.0,
+      "UnitPrice": 15.99,
+      "LineTotal": 479.7,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 47.97
+    },
+    {
+      "Description": "Marlboro Red Cigarettes – Carton (10 Packs)",
+      "Quantity": 30.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 2699.7,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 323.96
+    },
+    {
+      "Description": "Camel Blue Cigarettes – Carton (10 Packs)",
+      "Quantity": 23.0,
+      "UnitPrice": 87.99,
+      "LineTotal": 2023.77,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 242.85
+    },
+    {
+      "Description": "Newport Menthol Cigarettes – Carton (10 Packs)",
+      "Quantity": 20.0,
+      "UnitPrice": 94.49,
+      "LineTotal": 1889.8,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 226.78
+    },
+    {
+      "Description": "American Spirit Original – Carton (10 Packs)",
+      "Quantity": 19.0,
+      "UnitPrice": 95.99,
+      "LineTotal": 1823.81,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 218.86
+    },
+    {
+      "Description": "Copenhagen Long Cut – 5 Cans",
+      "Quantity": 60.0,
+      "UnitPrice": 38.49,
+      "LineTotal": 2309.4,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 277.13
+    }
+  ],
+  "SpecialNotes": null
+}

@@ -1,0 +1,69 @@
+{
+  "InvoiceID": "25-12788",
+  "FileName": "Invoice (1).pdf",
+  "AIPromptTokens": 1831,
+  "AICompletionTokens": 293,
+  "ProcessingDateTime": "2026-03-18T22:01:38.729478+00:00",
+  "InvoicePreTaxTotals": 380.19,
+  "InvoicePostTaxTotals": 403.4,
+  "InvoiceTaxTotals": 23.21,
+  "InvoiceLineItems": [
+    {
+      "Description": "Coca-Cola Original – 12 Pack (12 fl oz Cans)",
+      "Quantity": 3.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 26.97,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 1.75
+    },
+    {
+      "Description": "Pepsi Cola – 12 Pack (12 fl oz Cans)",
+      "Quantity": 4.0,
+      "UnitPrice": 8.79,
+      "LineTotal": 35.16,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 2.29
+    },
+    {
+      "Description": "Sprite Lemon-Lime Soda – 12 Pack",
+      "Quantity": 5.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 44.95,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 2.92
+    },
+    {
+      "Description": "Dr Pepper – 12 Pack",
+      "Quantity": 3.0,
+      "UnitPrice": 8.79,
+      "LineTotal": 26.37,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 1.71
+    },
+    {
+      "Description": "Mountain Dew – 12 Pack",
+      "Quantity": 10.0,
+      "UnitPrice": 8.79,
+      "LineTotal": 87.9,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 5.71
+    },
+    {
+      "Description": "Diet Coke – 12 Pack",
+      "Quantity": 11.0,
+      "UnitPrice": 8.99,
+      "LineTotal": 98.89,
+      "TaxCategory": "Soft Drinks",
+      "TaxAmount": 6.43
+    },
+    {
+      "Description": "Starbucks Pike Place Roast Ground Coffee – 12 oz Bag",
+      "Quantity": 5.0,
+      "UnitPrice": 11.99,
+      "LineTotal": 59.95,
+      "TaxCategory": "Coffee & Tea",
+      "TaxAmount": 2.4
+    }
+  ],
+  "SpecialNotes": null
+}

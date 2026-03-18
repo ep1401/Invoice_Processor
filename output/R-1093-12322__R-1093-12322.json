@@ -1,0 +1,69 @@
+{
+  "InvoiceID": "R-1093-12322",
+  "FileName": "R-1093-12322.pdf",
+  "AIPromptTokens": 1854,
+  "AICompletionTokens": 303,
+  "ProcessingDateTime": "2026-03-18T22:02:17.117922+00:00",
+  "InvoicePreTaxTotals": 6129.6,
+  "InvoicePostTaxTotals": 6129.6,
+  "InvoiceTaxTotals": 0.0,
+  "InvoiceLineItems": [
+    {
+      "Description": "BrightWave Laundry Pods – 42 Count",
+      "Quantity": 50.0,
+      "UnitPrice": 15.99,
+      "LineTotal": 799.5,
+      "TaxCategory": "Laundry Detergent",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "EcoSoft Plant-Based Detergent – 90 oz",
+      "Quantity": 40.0,
+      "UnitPrice": 12.49,
+      "LineTotal": 499.6,
+      "TaxCategory": "Laundry Detergent",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Dawn Ultra Dishwashing Liquid – 38 oz Bottle",
+      "Quantity": 25.0,
+      "UnitPrice": 4.29,
+      "LineTotal": 107.25,
+      "TaxCategory": "Dish Soap",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Energizer MAX AA Batteries – 24 Pack",
+      "Quantity": 100.0,
+      "UnitPrice": 18.99,
+      "LineTotal": 1899.0,
+      "TaxCategory": "Batteries",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Hamilton Beach 2-Slice Toaster – Brushed Steel",
+      "Quantity": 25.0,
+      "UnitPrice": 34.99,
+      "LineTotal": 874.75,
+      "TaxCategory": "Small Kitchen Appliances",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Gibson Stoneware Dinner Set – 20 Piece",
+      "Quantity": 20.0,
+      "UnitPrice": 59.99,
+      "LineTotal": 1199.8,
+      "TaxCategory": "Dinnerware",
+      "TaxAmount": 0.0
+    },
+    {
+      "Description": "Threshold Ceramic Mug Set – 6 Count",
+      "Quantity": 30.0,
+      "UnitPrice": 24.99,
+      "LineTotal": 749.7,
+      "TaxCategory": "Dinnerware",
+      "TaxAmount": 0.0
+    }
+  ],
+  "SpecialNotes": "Do not tax, tax has already been applied to items in invoice"
+}

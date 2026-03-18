@@ -1,0 +1,77 @@
+{
+  "InvoiceID": "R-1093-27243",
+  "FileName": "R-1093-27243.pdf",
+  "AIPromptTokens": 1876,
+  "AICompletionTokens": 326,
+  "ProcessingDateTime": "2026-03-18T22:02:42.107896+00:00",
+  "InvoicePreTaxTotals": 8917.73,
+  "InvoicePostTaxTotals": 9505.28,
+  "InvoiceTaxTotals": 587.55,
+  "InvoiceLineItems": [
+    {
+      "Description": "Amazon Basics Rechargeable AA Batteries – 12 Pack",
+      "Quantity": 40.0,
+      "UnitPrice": 15.99,
+      "LineTotal": 639.6,
+      "TaxCategory": "Batteries",
+      "TaxAmount": 44.77
+    },
+    {
+      "Description": "MeadowPaws Chicken & Rice Dog Food – 15 lb Bag",
+      "Quantity": 43.0,
+      "UnitPrice": 29.99,
+      "LineTotal": 1289.57,
+      "TaxCategory": "Pet Food",
+      "TaxAmount": 77.37
+    },
+    {
+      "Description": "OceanTail Salmon Cat Kibble – 10 lb Bag",
+      "Quantity": 40.0,
+      "UnitPrice": 26.49,
+      "LineTotal": 1059.6,
+      "TaxCategory": "Pet Food",
+      "TaxAmount": 63.58
+    },
+    {
+      "Description": "NutraPet Grain-Free Dog Food – 20 lb Bag",
+      "Quantity": 33.0,
+      "UnitPrice": 39.99,
+      "LineTotal": 1319.67,
+      "TaxCategory": "Pet Food",
+      "TaxAmount": 79.18
+    },
+    {
+      "Description": "Sierra Women’s Down Puffer Jacket",
+      "Quantity": 16.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 1439.84,
+      "TaxCategory": "Clothing",
+      "TaxAmount": 100.79
+    },
+    {
+      "Description": "Horizon Men’s Slim-Fit Chinos",
+      "Quantity": 25.0,
+      "UnitPrice": 44.99,
+      "LineTotal": 1124.75,
+      "TaxCategory": "Clothing",
+      "TaxAmount": 78.73
+    },
+    {
+      "Description": "Luna Women’s Activewear Leggings",
+      "Quantity": 30.0,
+      "UnitPrice": 29.99,
+      "LineTotal": 899.7,
+      "TaxCategory": "Clothing",
+      "TaxAmount": 62.98
+    },
+    {
+      "Description": "GoldenLeaf 14K Gold Hoop Earrings",
+      "Quantity": 5.0,
+      "UnitPrice": 229.0,
+      "LineTotal": 1145.0,
+      "TaxCategory": "Jewelry",
+      "TaxAmount": 80.15
+    }
+  ],
+  "SpecialNotes": "Validation warnings: Invoice total mismatch: summed line totals = 8917.73, but displayed_total = 7772.73."
+}

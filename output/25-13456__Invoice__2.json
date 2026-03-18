@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-13456",
+  "FileName": "Invoice (2).pdf",
+  "AIPromptTokens": 1895,
+  "AICompletionTokens": 462,
+  "ProcessingDateTime": "2026-03-18T22:01:46.710881+00:00",
+  "InvoicePreTaxTotals": 16977.34,
+  "InvoicePostTaxTotals": 18164.38,
+  "InvoiceTaxTotals": 1187.04,
+  "InvoiceLineItems": [
+    {
+      "Description": "Reebok Nano Cross-Trainer Shoes",
+      "Quantity": 4.0,
+      "UnitPrice": 124.99,
+      "LineTotal": 499.96,
+      "TaxCategory": "Footwear",
+      "TaxAmount": 35.0
+    },
+    {
+      "Description": "Dr. Martens 1460 Boots – Black Smooth",
+      "Quantity": 5.0,
+      "UnitPrice": 169.99,
+      "LineTotal": 849.95,
+      "TaxCategory": "Footwear",
+      "TaxAmount": 59.5
+    },
+    {
+      "Description": "New Balance 574 Sneakers – Navy",
+      "Quantity": 7.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 629.93,
+      "TaxCategory": "Footwear",
+      "TaxAmount": 44.1
+    },
+    {
+      "Description": "Sterling Silver Hoop Earrings – 1 in Diameter",
+      "Quantity": 5.0,
+      "UnitPrice": 49.99,
+      "LineTotal": 249.95,
+      "TaxCategory": "Jewelry",
+      "TaxAmount": 17.5
+    },
+    {
+      "Description": "14K Gold Pendant Necklace – Heart Design",
+      "Quantity": 15.0,
+      "UnitPrice": 229.0,
+      "LineTotal": 3435.0,
+      "TaxCategory": "Jewelry",
+      "TaxAmount": 240.45
+    },
+    {
+      "Description": "Men’s Stainless Steel Chain Bracelet",
+      "Quantity": 23.0,
+      "UnitPrice": 89.99,
+      "LineTotal": 2069.77,
+      "TaxCategory": "Jewelry",
+      "TaxAmount": 144.88
+    },
+    {
+      "Description": "Citizen Eco-Drive Stainless Steel Watch",
+      "Quantity": 12.0,
+      "UnitPrice": 249.0,
+      "LineTotal": 2988.0,
+      "TaxCategory": "Watches",
+      "TaxAmount": 209.16
+    },
+    {
+      "Description": "Fossil Chronograph Leather Watch – Brown",
+      "Quantity": 11.0,
+      "UnitPrice": 149.0,
+      "LineTotal": 1639.0,
+      "TaxCategory": "Watches",
+      "TaxAmount": 114.73
+    },
+    {
+      "Description": "Seiko Automatic Dive Watch – Blue Dial",
+      "Quantity": 11.0,
+      "UnitPrice": 295.0,
+      "LineTotal": 3245.0,
+      "TaxCategory": "Watches",
+      "TaxAmount": 227.15
+    },
+    {
+      "Description": "Everlast Heavy Boxing Bag – 70 lb",
+      "Quantity": 5.0,
+      "UnitPrice": 119.0,
+      "LineTotal": 595.0,
+      "TaxCategory": "Sporting Goods",
+      "TaxAmount": 41.65
+    },
+    {
+      "Description": "Schwinn Adult Bike Helmet",
+      "Quantity": 10.0,
+      "UnitPrice": 49.99,
+      "LineTotal": 499.9,
+      "TaxCategory": "Sporting Goods",
+      "TaxAmount": 34.99
+    },
+    {
+      "Description": "Monopoly Classic Board Game",
+      "Quantity": 12.0,
+      "UnitPrice": 22.99,
+      "LineTotal": 275.88,
+      "TaxCategory": "Toys & Games",
+      "TaxAmount": 17.93
+    }
+  ],
+  "SpecialNotes": null
+}

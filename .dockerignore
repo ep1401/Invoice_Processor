@@ -20,14 +20,12 @@ env/
 # Local secrets
 .env
 
-# Local artifacts
-output/
-logs/
-
 # Tests and docs not needed in image
 tests/
 README.md
-executive_summary.md
+
+# Local helper/debug folders
+helper/
 
 # Caches
 .pytest_cache/

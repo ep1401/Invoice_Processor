@@ -1,0 +1,37 @@
+{
+  "InvoiceID": "25-17224",
+  "FileName": "Invoice_Scan.pdf",
+  "AIPromptTokens": 2773,
+  "AICompletionTokens": 137,
+  "ProcessingDateTime": "2026-03-18T22:02:11.081146+00:00",
+  "InvoicePreTaxTotals": 574.6,
+  "InvoicePostTaxTotals": 635.46,
+  "InvoiceTaxTotals": 60.86,
+  "InvoiceLineItems": [
+    {
+      "Description": "Lone Star Cigars",
+      "Quantity": 20.0,
+      "UnitPrice": 8.49,
+      "LineTotal": 169.8,
+      "TaxCategory": "Tobacco Products",
+      "TaxAmount": 20.38
+    },
+    {
+      "Description": "Highland Spirits Whiskey",
+      "Quantity": 10.0,
+      "UnitPrice": 29.99,
+      "LineTotal": 299.9,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 29.99
+    },
+    {
+      "Description": "Read Oak 6 pack Beer",
+      "Quantity": 10.0,
+      "UnitPrice": 10.49,
+      "LineTotal": 104.9,
+      "TaxCategory": "Alcoholic Beverages",
+      "TaxAmount": 10.49
+    }
+  ],
+  "SpecialNotes": null
+}

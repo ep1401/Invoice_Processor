@@ -30,8 +30,8 @@ class TaxEngine:
 
             if item.unit_price is not None:
                 unit_price = round_money(item.unit_price)
-            elif item.quantity == 1:
-                unit_price = line_total
+            elif item.quantity is not None and item.quantity != 0:
+                unit_price = round_money(line_total / item.quantity)
             else:
                 unit_price = None
 

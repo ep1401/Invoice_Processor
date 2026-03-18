@@ -1,0 +1,109 @@
+{
+  "InvoiceID": "25-14463",
+  "FileName": "2025-10-10 15-43.pdf",
+  "AIPromptTokens": 2787,
+  "AICompletionTokens": 547,
+  "ProcessingDateTime": "2026-03-18T22:00:45.345295+00:00",
+  "InvoicePreTaxTotals": 8923.38,
+  "InvoicePostTaxTotals": 9569.28,
+  "InvoiceTaxTotals": 645.9,
+  "InvoiceLineItems": [
+    {
+      "Description": "Miracle-Gro Potting Mix - 2 cu ft Bag",
+      "Quantity": 30.0,
+      "UnitPrice": 14.49,
+      "LineTotal": 434.7,
+      "TaxCategory": "Fertilizer & Soil",
+      "TaxAmount": 30.43
+    },
+    {
+      "Description": "Schultz All-Purpose Plant Food - 10-15-10 Formula, 4 lb",
+      "Quantity": 20.0,
+      "UnitPrice": 10.99,
+      "LineTotal": 219.8,
+      "TaxCategory": "Fertilizer & Soil",
+      "TaxAmount": 15.39
+    },
+    {
+      "Description": "FoxFarm Ocean Forest Potting Soil - 1.5 cu ft",
+      "Quantity": 162.0,
+      "UnitPrice": 18.99,
+      "LineTotal": 3076.38,
+      "TaxCategory": "Fertilizer & Soil",
+      "TaxAmount": 215.35
+    },
+    {
+      "Description": "Sta-Green Moisture Max Potting Mix - 1 cu ft",
+      "Quantity": 143.0,
+      "UnitPrice": 9.49,
+      "LineTotal": 1357.07,
+      "TaxCategory": "Fertilizer & Soil",
+      "TaxAmount": 94.99
+    },
+    {
+      "Description": "Burpee Big Boy Tomato Seeds - 30 Count Packet",
+      "Quantity": 236.0,
+      "UnitPrice": 3.99,
+      "LineTotal": 941.64,
+      "TaxCategory": "Plants & Seeds",
+      "TaxAmount": 65.91
+    },
+    {
+      "Description": "Ferry-Morse Basil Herb Seeds - 200 Count",
+      "Quantity": 200.0,
+      "UnitPrice": 2.49,
+      "LineTotal": 498.0,
+      "TaxCategory": "Plants & Seeds",
+      "TaxAmount": 34.86
+    },
+    {
+      "Description": "Bonnie Plants Bell Pepper Starter - 4\" Pot",
+      "Quantity": 45.0,
+      "UnitPrice": 5.99,
+      "LineTotal": 269.55,
+      "TaxCategory": "Plants & Seeds",
+      "TaxAmount": 18.87
+    },
+    {
+      "Description": "Moog Outer Tie Rod End - ES800223",
+      "Quantity": 32.0,
+      "UnitPrice": 39.99,
+      "LineTotal": 1279.68,
+      "TaxCategory": "Automotive Parts",
+      "TaxAmount": 102.37
+    },
+    {
+      "Description": "Dorman Oil Drain Plug - M14-1.50",
+      "Quantity": 14.0,
+      "UnitPrice": 4.99,
+      "LineTotal": 69.86,
+      "TaxCategory": "Automotive Parts",
+      "TaxAmount": 5.59
+    },
+    {
+      "Description": "Mobil 1 Full Synthetic Motor Oil - 5W-30, 5-Quart Jug",
+      "Quantity": 13.0,
+      "UnitPrice": 28.99,
+      "LineTotal": 376.87,
+      "TaxCategory": "Motor Oil",
+      "TaxAmount": 30.15
+    },
+    {
+      "Description": "Castrol GTX High Mileage - 10W-40, 1-Quart Bottle",
+      "Quantity": 5.0,
+      "UnitPrice": 6.79,
+      "LineTotal": 33.95,
+      "TaxCategory": "Motor Oil",
+      "TaxAmount": 2.72
+    },
+    {
+      "Description": "Valvoline Advanced Full Synthetic - 0W-20, 5-Quart Jug",
+      "Quantity": 12.0,
+      "UnitPrice": 30.49,
+      "LineTotal": 365.88,
+      "TaxCategory": "Motor Oil",
+      "TaxAmount": 29.27
+    }
+  ],
+  "SpecialNotes": null
+}
